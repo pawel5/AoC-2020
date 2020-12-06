@@ -5,7 +5,7 @@ expression = re.compile("(\d+)-(\d+) ([a-z]): (\w+)")
 
 counter = 0
 
-for line in open("input"):
+for line in open("2.in"):
     (f, to, c, password) = expression.findall(line)[0]
     if int(f) <= password.count(c) <= int(to):
         counter += 1
@@ -13,7 +13,7 @@ print(counter)
 
 counter = 0
 
-for line in open("input"):
+for line in open("2.in"):
     (f, to, c, password) = expression.findall(line)[0]
     f = int(f)
     to = int(to)
