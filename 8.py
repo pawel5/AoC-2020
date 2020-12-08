@@ -34,7 +34,7 @@ def check_execution(instructions):
 
 
 instructions = []
-file = open("8.in")
+file = open("inputs/8.in")
 for line in file:
     instr, val = line.split(" ")
     if instr == "nop":

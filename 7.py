@@ -34,7 +34,7 @@ def find_keys_for(entry, rules):
     return keys
 
 
-rules = file_to_rules("7.in")
+rules = file_to_rules("inputs/7.in")
 print(len(find_keys_for("shiny gold", rules)))
 
 
@@ -47,5 +47,5 @@ def count_bags_for(key, rules):
     return counter
 
 
-rules = file_to_rules("7.in")
+rules = file_to_rules("inputs/7.in")
 print(count_bags_for("shiny gold", rules))

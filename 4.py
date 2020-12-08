@@ -2,7 +2,7 @@ import re
 
 regex = re.compile("[a-z]{3}:")
 items = set()
-file = open("4.in")
+file = open("inputs/4.in")
 valid = 0
 for line in file:
     for item in re.findall(regex, line):
@@ -76,7 +76,7 @@ def check(items_set):
 
 regex = re.compile("([a-z]{3}):([#0-9a-z]+)")
 items = {}
-file = open("4.in")
+file.seek(0)
 valid = 0
 for line in file:
     for (key, value) in re.findall(regex, line):

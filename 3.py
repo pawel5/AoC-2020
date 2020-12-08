@@ -7,7 +7,7 @@ index = [0, 0, 0, 0, 0]
 step_right = [1, 3, 5, 7, 1]
 step_down = [1, 1, 1, 1, 2]
 line_num = 0
-file = open("3.in")
+file = open("inputs/3.in")
 
 for line in file:
     for i in range(len(index)):

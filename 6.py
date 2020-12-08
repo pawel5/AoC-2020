@@ -1,4 +1,4 @@
-file = open("6.in")
+file = open("inputs/6.in")
 
 answers_sum = 0
 group = set()
@@ -14,7 +14,7 @@ answers_sum += len(group)
 
 print(answers_sum)
 
-file = open("6.in")
+file.seek(0)
 
 groups = []
 same_answers_sum = 0
