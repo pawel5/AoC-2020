@@ -2,7 +2,7 @@ import re
 
 regex = re.compile("[a-z]{3}:")
 items = set()
-file = open("inputs/4.in")
+file = open("inputs/04.in")
 valid = 0
 for line in file:
     for item in re.findall(regex, line):

@@ -1,4 +1,4 @@
-f = open("inputs/1.in")
+f = open("inputs/01.in")
 lines = [int(line) for line in f]
 for i in range(len(lines)):
     for j in range(i, len(lines)):

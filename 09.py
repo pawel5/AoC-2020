@@ -1,7 +1,7 @@
 from itertools import combinations
 
 preamble = 25
-entries = [int(line) for line in open("inputs/9.in")]
+entries = [int(line) for line in open("inputs/09.in")]
 start = 0
 found = -1
 

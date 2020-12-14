@@ -15,7 +15,7 @@ def to_seat_id(chars):
     return col_l + row_l * 8
 
 
-file = open("inputs/5.in")
+file = open("inputs/05.in")
 
 ids = [to_seat_id(line) for line in file]
 print(max(ids))

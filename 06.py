@@ -1,4 +1,4 @@
-file = open("inputs/6.in")
+file = open("inputs/06.in")
 
 answers_sum = 0
 group = set()

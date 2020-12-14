@@ -4,7 +4,7 @@ expression = re.compile("(\d+)-(\d+) ([a-z]): (\w+)")
 
 
 counter = 0
-file = open("inputs/2.in")
+file = open("inputs/02.in")
 for line in file:
     (f, to, c, password) = expression.findall(line)[0]
     if int(f) <= password.count(c) <= int(to):
